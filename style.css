@@ -4,6 +4,8 @@
 }
 
 body{
+    background-size: 100dvh;
+    background-color: #F4EBD0;
 }
 
 p, h1{
@@ -11,17 +13,16 @@ p, h1{
 }
 
 header{
-    border: 3px solid gray;
-    color: gray;
+    border: 3px solid #122620;
+    color: #122620;
     height: 50px;
     text-align: center;
 }
 
 
 .video{
-    background: url("imagens/fundo-branco.jpg") center no-repeat fixed;
-    background-size: cover;
-    margin: 1% 2% 0% 2%;
+    background-color: #b68d4046;
+    margin: 10% 2%;
     position: relative;
     padding: 20%;
 }
@@ -32,4 +33,55 @@ header{
     left: 5%;
     width: 90%;
     height: 90%;
+}
+
+.imagens {
+    background-color: #e0b86e;
+    color: #122620;
+    margin: 100px 0px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.397);
+    text-align: center;
+}
+
+.imagens img{
+    margin: 5px 5% 225px 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside{
+    background-color: #6089D6;
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 600px;
+    margin: 50px auto;
+    box-shadow: inset 0px 0px 10px 7px rgba(0, 0, 0, 0.174);
+}
+aside h3{
+    background-color: #233b6a;
+    color: white;
+    padding: 20px;
+    border-radius: 15px 15px 0px 0px;
+    margin: -30px -30px 30px -30px;
+    text-align: center;
+}
+aside ul{
+    list-style: none;
+}
+aside a{
+    text-decoration: none;
+    color: #122620;
+    font-size: large;
+    font-weight: bolder;
+}
+aside a:hover{
+    color: #384e48;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: larger;
 }
